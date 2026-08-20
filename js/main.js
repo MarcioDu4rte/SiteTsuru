@@ -192,6 +192,18 @@
     if (subject) subject.value = "Orçamento — " + prefill;
   }
 
+  var qualityVideo = document.querySelector(".quality-video");
+  if (qualityVideo) {
+    function playQualityVideo() {
+      var p = qualityVideo.play();
+      if (p && p.catch) p.catch(function () {});
+    }
+    playQualityVideo();
+    document.addEventListener("visibilitychange", function () {
+      if (!document.hidden) playQualityVideo();
+    });
+  }
+
   document.querySelectorAll('a[href^="#"]').forEach(function (a) {
     a.addEventListener("click", function (e) {
       var target = document.querySelector(a.getAttribute("href"));

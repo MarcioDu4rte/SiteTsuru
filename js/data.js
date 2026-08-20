@@ -181,12 +181,12 @@ const METRICS = {
 const BRAND = {
   name: "Tsuru Alimentos",
   tagline: "Indústria de Alimentos Orientais",
-  phone: "(00) 0000-0000",
-  phoneLink: "tel:+5500000000000",
-  whatsapp: "(00) 00000-0000",
-  email: "comercial@tsurualimentos.com.br",
-  address: "Rodovia BR-000, Km 0, Nº 000 — Bairro, Cidade/UF — CEP 00000-000",
-  hours: "Segunda a sexta, das 8h às 18h",
-  instagram: "https://instagram.com/",
-  facebook: "https://facebook.com/"
+  phone: "(11) 2130-4535",
+  phoneLink: "tel:+551121304535",
+  whatsapp: "(11) 92134-4724",
+  email: "tsurudistribuidora@gmail.com",
+  address: "Rua Professor Castelo Branco, 364 — Jd. Nove de Julho, São Paulo/SP — CEP 03947-020",
+  hours: "Segunda a sexta, das 7h às 16h",
+  instagram: "https://www.instagram.com/tsurualimentos/",
+  facebook: "https://www.facebook.com/tsurualimentosltda/?locale=pt_BR"
 };
