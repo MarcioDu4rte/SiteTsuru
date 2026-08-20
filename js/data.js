@@ -86,37 +86,37 @@ const SEGMENTS = [
     id: "restaurantes",
     title: "Restaurantes",
     text: "Produtos selecionados para operações profissionais que exigem consistência em cada prato.",
-    img: "img/Tsuru%20Guioza%20Suino.webp"
+    img: "img/Segmento%20Restaurantes.webp"
   },
   {
     id: "sushibares",
     title: "Sushibares e Temakerias",
     text: "Ingredientes essenciais para qualidade, padronização e sabor autêntico.",
-    img: "img/Tsuru%20Guioza%20Salm%C3%A3o.webp"
+    img: "img/segments/sushibares.png"
   },
   {
     id: "distribuidores",
     title: "Distribuidores",
     text: "Portfólio preparado para parceiros comerciais que buscam crescer com qualidade.",
-    img: "img/Tsuru%20Guioza%20Bovino.webp"
+    img: "img/segments/distribuidores.png"
   },
   {
     id: "supermercados",
     title: "Supermercados",
     text: "Produtos orientais para atender consumidores cada vez mais exigentes.",
-    img: "img/Tsuru%20Guioza%20Frango.webp"
+    img: "img/segments/supermercados.png"
   },
   {
     id: "food-service",
     title: "Food Service",
     text: "Soluções para operações gastronômicas profissionais de todos os tamanhos.",
-    img: "img/Tsuru%20Guioza%20Shitake.webp"
+    img: "img/segments/food-service.png"
   },
   {
     id: "gastronomia-oriental",
     title: "Gastronomia Oriental & Chefs",
     text: "Ingredientes que valorizam o trabalho de chefs e apaixonados pela cozinha japonesa.",
-    img: "img/Tsuru%20Guioza%20Shimeji.webp"
+    img: "img/segments/gastronomia-oriental.png"
   }
 ];
 

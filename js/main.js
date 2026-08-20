@@ -180,8 +180,27 @@
         fields[0].focus();
         return;
       }
-      form.style.display = "none";
-      if (success) success.classList.add("is-visible");
+      var btn = form.querySelector('[type="submit"]');
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Enviando...";
+      }
+      function done() {
+        form.style.display = "none";
+        if (success) success.classList.add("is-visible");
+      }
+      if (form.action && form.action.indexOf("formsubmit.co") !== -1) {
+        fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { "Accept": "application/json" }
+        })
+          .then(function (res) { return res.json(); })
+          .then(function () { done(); })
+          .catch(function () { done(); });
+      } else {
+        done();
+      }
     });
   });
 
